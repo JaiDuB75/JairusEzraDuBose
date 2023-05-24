@@ -1,0 +1,47 @@
+html{
+    background-color: #c6b195;
+  } /*CSS Code to color the background  for the entire web page*/
+  header{
+    color: white;
+    background-color: #534646;
+    text-align: center;
+  } /*CSS Code to color algin and color the header*/
+  
+  h2, h3{
+    font-size: 18px;
+  } /*Controls the font size of the h2 and h3 tags*/
+  
+  main{
+    text-align: center;
+  } /*Centers the content within the main tag*/
+
+  .column{
+    float: left;
+    width: 50%;
+    background-color: #dfd3d3;
+  } /*CSS Code for colums*/
+  
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+  } /*CSS Code for rows*/
+  
+  section p{
+      background-color: #dfd3d3;
+  } /*Spectifies the background color of the paragraph tags*/
+  
+  footer{
+    color: white;
+    text-align: center;
+    background-color:#3c3434;
+  } /*Contols the color alignment and background color for the footer*/
+  
+  hr {
+    border: none;
+    border-top: 3px double #2e2c2b;
+    color: #2e2c2b;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    }
