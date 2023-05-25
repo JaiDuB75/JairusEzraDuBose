@@ -19,6 +19,7 @@ html{
     float: left;
     width: 50%;
     background-color: #dfd3d3;
+    padding: 50;
   } /*CSS Code for colums*/
   
   .row:after{
@@ -46,6 +47,6 @@ html{
     height: 5px;
     }
 
-img{
-width="50%"
-}
+    img{
+      width: 50%;
+    }
