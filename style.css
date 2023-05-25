@@ -5,7 +5,17 @@ html{
     color: white;
     background-color: #534646;
     text-align: center;
+    padding: 40px;
+    font-size: 30px;
   } /*CSS Code to color algin and color the header*/
+
+  header h1{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+  }
   
   h2, h3{
     font-size: 18px;
@@ -19,7 +29,7 @@ html{
     float: left;
     width: 50%;
     background-color: #dfd3d3;
-    padding: 50;
+    text-align: left;
   } /*CSS Code for colums*/
   
   .row:after{
@@ -30,6 +40,7 @@ html{
   
   section p{
       background-color: #dfd3d3;
+      padding: 30px;
   } /*Spectifies the background color of the paragraph tags*/
   
   footer{
@@ -48,5 +59,10 @@ html{
     }
 
     img{
-      width: 50%;
+      width: 50%; /*Setting the width of my photo. Working on removing pixelization */
+    }
+
+    ol{
+      text-align: left; /*Setting the alignment for the content of the ordered list */
+      margin-left: 40px;
     }
