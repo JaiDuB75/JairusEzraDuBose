@@ -1,68 +1,117 @@
-html{
-    background-color: #c6b195;
-  } /*CSS Code to color the background  for the entire web page*/
-  header{
-    color: white;
-    background-color: #534646;
-    text-align: center;
-    padding: 40px;
-    font-size: 30px;
-  } /*CSS Code to color algin and color the header*/
+html {
+  background-color: #c6b195;
+}
 
-  header h1{
-      font-family: Arial, Helvetica, sans-serif;
-  }
+/*CSS Code to color the background  for the entire web page*/
+header {
+  color: white;
+  background-color: #534646;
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+  height: 100%;
+  width: 96%;
+}
 
-  header h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
-  }
-  
-  h2, h3{
-    font-size: 18px;
-  } /*Controls the font size of the h2 and h3 tags*/
-  
-  main{
-    text-align: center;
-  } /*Centers the content within the main tag*/
+/*CSS Code to color algin and color the header*/
 
-  .column{
-    float: left;
-    width: 50%;
-    background-color: #dfd3d3;
-    text-align: left;
-  } /*CSS Code for colums*/
-  
-  .row:after{
-    content: "";
-    display: table;
-    clear: both;
-  } /*CSS Code for rows*/
-  
-  section p{
-      background-color: #dfd3d3;
-      padding: 30px;
-  } /*Spectifies the background color of the paragraph tags*/
-  
-  footer{
-    color: white;
-    text-align: center;
-    background-color:#3c3434;
-  } /*Contols the color alignment and background color for the footer*/
-  
-  hr {
-    border: none;
-    border-top: 3px double #2e2c2b;
-    color: #2e2c2b;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-    }
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    img{
-      width: 50%; /*Setting the width of my photo. Working on removing pixelization */
-    }
+header h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+}
 
-    ol{
-      text-align: left; /*Setting the alignment for the content of the ordered list */
-      margin-left: 40px;
-    }
+h2,
+h3 {
+  font-size: 25px;
+}
+
+/*Centers the content within the main tag*/
+
+.column {
+  float: left;
+  width: 50%;
+  background-color: #dfd3d3;
+  text-align: left;
+}
+
+/*CSS Code for colums*/
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*CSS Code for rows*/
+
+section p {
+  background-color: #dfd3d3;
+  padding: 30px;
+}
+
+/*Spectifies the background color of the paragraph tags*/
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: #3c3434;
+}
+
+/*Contols the color alignment and background color for the footer*/
+
+hr {
+  border: none;
+  border-top: 3px double #2e2c2b;
+  color: #2e2c2b;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+img {
+  width: 50%;
+  /*Setting the width of my photo. Working on removing pixelization */
+}
+
+ol {
+  text-align: left;
+  /*Setting the alignment for the content of the ordered list */
+  margin-left: 40px;
+}
+
+.split{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: white;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgb(113, 102, 102);
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
+
+.centered img {
+  width: 300px;
+  border-radius: 50%;
+}
