@@ -1,117 +1,101 @@
-html {
-  background-color: #c6b195;
+html{
+  background-color: #333;
 }
 
-/*CSS Code to color the background  for the entire web page*/
-header {
-  color: white;
-  background-color: #534646;
+header{
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 14px 16px;
+  overflow: hidden;
   text-align: center;
-  padding: 40px;
-  font-size: 30px;
-  height: 100%;
-  width: 96%;
 }
 
-/*CSS Code to color algin and color the header*/
-
-header h1 {
-  font-family: Arial, Helvetica, sans-serif;
+nav{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-right: 20px;
 }
 
-header h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+h1{
+  text-align: center;
+  color: #f2f2f2;
 }
 
-h2,
-h3 {
-  font-size: 25px;
+p{
+  font-size: 20px;
+  color: #f2f2f2;
+  text-align: center;
 }
 
-/*Centers the content within the main tag*/
-
-.column {
-  float: left;
-  width: 50%;
-  background-color: #dfd3d3;
-  text-align: left;
+a:link, a:visited{
+  text-align: center;
+  color: #f2f2f2;
 }
 
-/*CSS Code for colums*/
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+li{
+  font-size: 20px;
+  text-align: center;
+  list-style-type: none;
+  color: #f2f2f2;
 }
-
-/*CSS Code for rows*/
-
-section p {
-  background-color: #dfd3d3;
-  padding: 30px;
-}
-
-/*Spectifies the background color of the paragraph tags*/
 
 footer {
   color: white;
   text-align: center;
-  background-color: #3c3434;
 }
 
-/*Contols the color alignment and background color for the footer*/
+.page-top{
+  overflow: hidden;
+}
 
-hr {
-  border: none;
-  border-top: 3px double #2e2c2b;
-  color: #2e2c2b;
-  overflow: visible;
+.page-top a{
+  float: left;
+  color: #f2f2f2;
   text-align: center;
-  height: 5px;
+  padding: 20px;
+  text-decoration: none;
 }
 
-img {
-  width: 50%;
-  /*Setting the width of my photo. Working on removing pixelization */
+.page-top a:hover{
+  background-color: #0454aa;
+  color: white;
 }
 
-ol {
-  text-align: left;
-  /*Setting the alignment for the content of the ordered list */
-  margin-left: 40px;
+.flex-parent-element{
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
 }
 
-.split{
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  z-index: 1;
-  overflow-x: hidden;
-  padding-top: 20px;
+.flex-child-element{
+  flex: auto;
+  margin: 10px;
+  /* border: 10px solid blueviolet; */
 }
 
-/* Control the left side */
-.left {
-  left: 0;
-  background-color: white;
+.flex-child-element:first-child{
+  margin-right: 100px;
 }
 
-/* Control the right side */
-.right {
-  right: 0;
-  background-color: rgb(113, 102, 102);
+.selected{
+  align-self: center;
+  
 }
 
-.centered{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; 
+.container{
+  display: flex;
 }
 
-.centered img {
-  width: 300px;
+.column{
+  flex: 1;
+  padding: 20px;
+  /* border: 2px solid #ccc; */
+}
+
+.column img{
+  width: 350px;
+  margin-top: 175px;
+  margin-left: 250px;
   border-radius: 50%;
 }
